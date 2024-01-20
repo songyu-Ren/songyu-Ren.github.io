@@ -1,0 +1,30 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "company": "Accenture",
+            "duration": "2022 - Present",
+            "description": "Working on various AI and data science projects."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Amsterdam",
+            "degree": "MSc Data science",
+            "years": "2023 - Present",
+            "logo": "../images/uva.jpeg"
+        },
+        {
+            "institution": "University of Groningen",
+            "degree": "Msc Operation Research",
+            "years": "2021 - 2022",
+            "logo": "../images/Groningen.png"
+        },
+        {
+            "institution": "The Australian National University",
+            "degree": "BSc Information systems, Accounting (Double Major)",
+            "years": "2016 - 2019",
+            "logo": "../images/anu.png"
+        }
+    ]
+}
