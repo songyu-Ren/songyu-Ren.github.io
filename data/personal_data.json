@@ -12,19 +12,62 @@
             "institution": "University of Amsterdam",
             "degree": "MSc Data Science",
             "years": "2023 - Present",
-            "logo": "../images/uva.png"
+            "logo": "../images/uva.png",
+            "projects": [
+                {
+                    "title": "AI for Law",
+                    "description": "Led the ground-up development of a pioneering AI-powered semantic analysis model, specifically designed for the continental legal system. The project embarked on a comprehensive compilation of a diverse range of legal documents, emphasizing statutes and regulatory frameworks from multiple continental law jurisdictions. Rigorous preprocessing and cleaning protocols were employed to structure and standardize the data, making it suitable for advanced machine learning techniques. A meticulous process was undertaken to label the data, with a particular focus on act frames, ensuring high-quality datasets. Legal experts collaborated closely in the manual labeling process, annotating key semantic elements and statutory references, which significantly enhanced the training process of the RoBERTa-based model. The culmination of this project was a sophisticated model adept at interpreting and analyzing the nuances of continental legal language. It excelled in providing detailed contextual insights, thereby revolutionizing the efficiency of legal research and supporting practitioners in the continental legal system with an unprecedented level of analytical precision."
+                }
+                ,
+                {
+                    "title": "Network Forecasting",
+                    "description": "Created a robust predictive analytics framework using the XGBoost machine learning algorithm to accurately forecast network behavior. The model analyzed historical data to predict traffic loads, potential faults, and maintenance needs, leading to proactive network management and optimization of system performance. This predictive capability allowed for improved resource allocation and minimized downtime."
+                },
+                {
+                    "title": "Multiple-Choice Analysis",
+                    "description": "Implemented a sophisticated analysis system using BERT (Bidirectional Encoder Representations from Transformers) to evaluate and enhance the reliability of multiple-choice assessments. The system performed a detailed examination of question patterns, difficulty levels, and answer choices, providing insights into the assessment's validity. It also offered actionable recommendations for improving question design to better measure student understanding and learning outcomes."
+                },
+                {
+                    "title": "Time Series Forecasting",
+                    "description": "Employed Graph Neural Networks combined with Conformal Prediction techniques to tackle the challenge of time series forecasting. This project aimed at enhancing predictive accuracy for financial, meteorological, and inventory demand planning. The model's innovative approach allowed for capturing complex temporal relationships and providing a reliable measure of predictive uncertainty, which is crucial for risk-sensitive decision-making."
+                }
+            ]            
         },
         {
             "institution": "University of Groningen",
             "degree": "MSc Operation Research",
             "years": "2021 - 2022",
-            "logo": "../images/groningen.png"
+            "logo": "../images/groningen.png",
+            "projects":[
+                {
+                    "title": "Optimization of Logistic Network Design for Pick-up Location",
+                    "description": "Conceived and developed from the ground up, this project focused on optimizing the logistic network design for pick-up locations using advanced operations research techniques and Geographic Information System (GIS) technology. The project entailed a comprehensive analysis of geographical data and logistical parameters to model an efficient pick-up network. It started with the collection of geospatial data, followed by processing and analysis using GIS software to identify optimal pick-up points based on accessibility, cost-effectiveness, and customer density. Sophisticated optimization algorithms were then applied to design a network that minimizes travel time and maximizes coverage. This end-to-end solution significantly improved the efficiency of last-mile delivery operations for a logistics company, showcasing the powerful synergy between GIS and operations research in solving complex spatial problems."
+                }, 
+                {
+                    "title": "Optimization of Network Design for Carbon Capture and Transportation in South Europe",
+                    "description": "This project was centered on designing an optimized network for carbon capture and transportation in Southern Europe, leveraging the robustness of Mixed Integer Linear Programming (MILP) for strategic planning. The project's foundation was laid by conducting an extensive analysis of regional industrial carbon emission sources and identifying potential carbon capture sites. The core objective was to minimize both the operational costs and environmental impact associated with the capture and transportation of carbon dioxide. Essential tasks included the thorough collection and analysis of data on industrial emission points, viable pipeline routes, and storage site capacities. Utilizing MILP, a model was meticulously developed to navigate the complex trade-offs between cost-efficiency and carbon footprint reduction. The model also took into account the unique geographical and logistical challenges specific to Southern Europe, ensuring the solutions were both feasible and adhered to regional environmental standards. The outcome was a strategically structured carbon capture and transportation network, tailored to significantly bolster regional efforts in climate change mitigation while promoting environmental sustainability."
+                }                                
+            ]
         },
         {
             "institution": "The Australian National University",
             "degree": "BSc Information Systems, Accounting (Double Major)",
             "years": "2016 - 2019",
-            "logo": "../images/anu.png"
+            "logo": "../images/anu.png",
+            "projects": [
+                {
+                    "title": "Financial Data Analysis Platform",
+                    "description": "Developed an innovative platform for real-time financial data analysis. The project involved integrating accounting principles with information systems to create a tool capable of analyzing large sets of financial data. The platform utilized advanced data analytics techniques to identify trends, forecast financial outcomes, and provide actionable insights for strategic financial decision-making."
+                },
+                {
+                    "title": "Enterprise Resource Planning (ERP) System Implementation",
+                    "description": "Participated in a mock implementation of an ERP system to streamline business processes for a simulated organization. This project focused on the integration of various business functions, including accounting, supply chain, and human resources, into a unified system. Emphasized on customizing the ERP software to fit organizational needs while ensuring efficient data flow and process optimization."
+                },
+                {
+                    "title": "Automated Audit Procedures",
+                    "description": "Created a proof-of-concept for automating audit procedures using information systems. This project aimed to increase the efficiency and accuracy of auditing processes by automating routine tasks and data analysis. The system was designed to flag discrepancies and anomalies in financial records, aiding auditors in identifying potential issues more rapidly."
+                }
+            ]
         }
     ],
     "profile": {

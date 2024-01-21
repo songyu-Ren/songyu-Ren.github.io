@@ -59,13 +59,42 @@ function displayExperiences(experiences) {
 
 function displayEducation(education) {
     const educationSection = document.getElementById('education-section');
+    
     education.forEach(edu => {
+        // Create a div for the education item
         const eduDiv = document.createElement('div');
+        eduDiv.classList.add('education-item');
+
+        // Set innerHTML for the basic education info
         eduDiv.innerHTML = `
-            <img src="${edu.logo}" alt="${edu.institution}" height="100">
-            <p><a href="${edu.link}" target="_blank">${edu.institution}</a>, ${edu.degree}, ${edu.years}</p>
+            <img src="${edu.logo}" alt="${edu.institution}" class="university-logo">
+            <div class="education-details">
+                <p class="education-institution">
+                    <a href="${edu.link}" target="_blank">${edu.institution}</a>, ${edu.degree}, ${edu.years}
+                </p>
+            </div>
         `;
-        educationSection.appendChild(eduDiv);
+
+        // Create a div for projects if they exist
+        if (edu.projects && edu.projects.length > 0) {
+            const projectsDiv = document.createElement('div');
+            projectsDiv.classList.add('education-projects');
+
+            // Add each project to the projects div
+            edu.projects.forEach(project => {
+                const projectDiv = document.createElement('div');
+                projectDiv.classList.add('project');
+                projectDiv.innerHTML = `
+                    <h3 class="project-title">${project.title}</h3>
+                    <p class="project-description">${project.description}</p>
+                `;
+                projectsDiv.appendChild(projectDiv); // Append project to projects div
+            });
+
+            eduDiv.appendChild(projectsDiv); // Append projects div to education item
+        }
+
+        educationSection.appendChild(eduDiv); // Append education item to the main section
     });
 }
 
