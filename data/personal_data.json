@@ -4,27 +4,36 @@
             "title": "Software Engineer",
             "company": "Accenture",
             "duration": "2022 - Present",
-            "description": "Working on various AI and data science projects."
+            "description": "Working on various projects."
         }
     ],
     "education": [
         {
             "institution": "University of Amsterdam",
-            "degree": "MSc Data science",
+            "degree": "MSc Data Science",
             "years": "2023 - Present",
-            "logo": "../images/uva.jpeg"
+            "logo": "../images/uva.png"
         },
         {
             "institution": "University of Groningen",
-            "degree": "Msc Operation Research",
+            "degree": "MSc Operation Research",
             "years": "2021 - 2022",
-            "logo": "../images/Groningen.png"
+            "logo": "../images/groningen.png"
         },
         {
             "institution": "The Australian National University",
-            "degree": "BSc Information systems, Accounting (Double Major)",
+            "degree": "BSc Information Systems, Accounting (Double Major)",
             "years": "2016 - 2019",
             "logo": "../images/anu.png"
         }
-    ]
+    ],
+    "profile": {
+        "photo": "../images/rsy.png",
+        "name": "Songyu Ren",
+        "description": "Hello! I'm currently diving deep into the realm of data science as a part-time student in University of Amsterdam, while also harnessing the practicalities of technology as a full-time Software Engineer at Accenture. My fervor for artificial intelligence is not just a professional interest, but a personal passion. I bring a vibrant energy to AI development, always seeking innovative ways to blend academic insights with real-world applications.",
+        "email": "rensongyursy@outlook.com",
+        "cvLink": "data/SongyuRen-CV.pdf",
+        "linkedinLink": "https://www.linkedin.com/in/songyu-ren-108b96204/",
+        "githubLink": "https://github.com/songyu-Ren"
+    }
 }

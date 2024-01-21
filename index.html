@@ -1,35 +1,44 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <meta charset="UTF-8">
     <title>Songyu Ren</title>
     <meta name="author" content="Songyu Ren">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%22.9em%22%20font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E">
-  </head>
-  <body>
-    <div class="container">
-      <div class="profile-section">
-        <p class="name" style="text-align: center;">
-          Songyu Ren (任松宇)
-        </p>
-        <p>
-          Hello! I'm currently diving deep into the realm of data science as a part-time student in University of Amsterdam, 
-          while also harnessing the practicalities of technology as a full-time Software Engineer at Accenture. 
-          My fervor for artificial intelligence is not just a professional interest, but a personal passion. 
-          I bring a vibrant energy to AI development, always seeking innovative ways to blend academic insights with real-world applications.
-        </p>
-        <p style="text-align: center;">
-          <a href="mailto:rensongyursy@outlook.com">Email</a> &nbsp;/&nbsp;
-          <a href="data/SongyuRen-CV.pdf" target="_blank" rel="noopener noreferrer">CV</a> &nbsp;/&nbsp;
-          <a href="https://www.linkedin.com/in/songyu-ren-108b96204/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;/&nbsp;
-          <a href="https://github.com/songyu-Ren" target="_blank" rel="noopener noreferrer">Github</a>
-        </p>
-      </div>
-      <div id="experience-section"></div>
-      <div id="education-section"></div>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Work Experience</a>
+    <a href="projects.html">Side Projects</a>
+  </div>
+  <div class="container" id="content">
+    <div class="profile-banner">
+        <!-- Background image for the profile section -->
+        <img src="./images/background.png" alt="Background" class="background-photo">
+        <div class="profile-container">
+            <!-- Profile photo -->
+            <img src="./images/rsy.png" alt="Songyu Ren" class="photo">
+            <!-- Profile details: name and links -->
+            <div class="profile-section">
+                <p class="name"></p> <!-- Element for name -->
+                <a class="email-link" href="#">Email</a> <!-- Element for email link -->
+                <a class="cv-link" href="#" target="_blank" rel="noopener noreferrer">CV</a> <!-- Element for CV link -->
+                <a class="linkedin-link" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a> <!-- Element for LinkedIn link -->
+                <a class="github-link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a> <!-- Element for GitHub link -->
+            </div>
+        </div>
     </div>
-    <script src="displayContent.js"></script>
-  </body>
+    <div class="about-me-banner ">
+      <div class="about-me">
+        <h2>About Me</h2>
+        <p class="description"></p> <!-- Element for description -->
+      </div>
+    </div>
+  </div>
+  <script src="./frontend/displayContent.js"></script>
+</body>
 </html>
